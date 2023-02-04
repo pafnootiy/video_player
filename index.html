@@ -7,31 +7,54 @@
 </head>
 <body>
 
-  <div id="player" style="width: 800px; height: 600px;">
-    <div class="js-video-container" style="width: 100%; height: 100%"></div>
-    <!-- Here can be placed player controls: play and volume buttons -->
-      <div style="background-color:black;">
-        <style>.fa-play{
-          color: white;
-           }
-        </style>
-        
-        <button class="js-play-button" style=" border-style: none; cursor: pointer;background-color: #11ffee00;" > 
-          <i class="fa fa-play" aria-hidden="true"></i>
-        </button>
-      
+  <div id="player">
+    <div class="js-video-container" ></div>
+                  <!-- Here can be placed player controls: play and volume buttons -->
+        <div class="left-buttons">
+          <div class="player-button play">
+            <button class="js-play-button "> 
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="player-button pause">
+            <button class="js-pause-button"> 
+              <i class="fa fa-pause" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
  
-        <style>.fa-pause{
-          color: white;
-           }
-        </style>
-        
-        <button class="js-pause-button" style=" border-style: none; cursor: pointer;background-color: #11ffee00;" > 
-          <i class="fa fa-pause" aria-hidden="true"></i>
-        </button>
-      </div>
+    </div>
 
   </div>
+
+    <style>
+    .left-buttons{
+      border-style: none;
+      cursor: pointer;
+      background-color: #11ffee00;
+      background-color:black
+    }
+    .js-video-container{
+      width: 100%;
+      height: 100%;
+      background-color:black;
+    }
+    #player{
+      width: 800px;
+      height: 600px;
+    }
+ 
+   
+
+
+    </style>
+
+
+
+
+
+
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
   <script src="static/player.js"></script>
