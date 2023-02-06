@@ -9,31 +9,30 @@
 
   <div id="player">
     <div class="js-video-container" ></div>
-                  <!-- Here can be placed player controls: play and volume buttons -->
         <div class="left-buttons">
           <div class="player-button play">
-            <button class="js-play-button "> 
+            <button class="js-play-button "style="background-color:black;"> 
               <i class="fa fa-play" aria-hidden="true"></i>
             </button>
           </div>
           <div class="player-button pause">
-            <button class="js-pause-button"> 
+            <button class="js-pause-button" style="background-color:black;"> 
               <i class="fa fa-pause" aria-hidden="true"></i>
             </button>
           </div>
           <div class="player-button mute">
-            <button class="js-mute-button"> 
+            <button class="js-mute-button" style="background-color:black;"> 
               <i class="fa fa-volume-up" aria-hidden="true"></i>
             </button>
           </div>
           <div class="player-button volume">
-            <button class="js-volume-button"> 
+            <button class="js-volume-button"style="background-color:black;" > 
               <i class="fa fa-volume-off" aria-hidden="true"></i>
             </button>
           </div>
-          <div class="space" style="color: yellowgreen;">  </div>
+          <div class="space">  </div>
           <div class="player-button fullscreen">
-            <button class="js-fullscreen-button "> 
+            <button class="js-fullscreen-button " style="background-color:black;"> 
               <i class="fa fa-arrows-alt" aria-hidden="true"></i>
             </button>
           </div>
@@ -60,11 +59,14 @@
     }
 
     .fa{
-          font-size: 50px; 
+          font-size: 30px; 
           cursor: pointer;
-          color: rgb(17, 247, 171); 
-          background-color: #11ffee00;   
-          background-color:rgb(0, 0, 0) ;  
+          color: rgb(233, 0, 0);
+          background-color: #11ffee00;
+          display: flex; 
+          width: 40px;
+          height: 40px;
+ 
       }
 
     .js-video-container{
@@ -74,16 +76,9 @@
     }
 
     .player-button {
-      margin: 2px;
-      background-color:rgb(194, 13, 13);
-      color:rgb(17, 218, 17);
- 
+      margin: 1px;
     }
-    .left-buttons .player-button.fullscreen{
-      display: flex;
-    }
-  
-
+    
     #player{
       width: 800px;
       height: 600px;
@@ -91,7 +86,6 @@
       flex-direction: column;
     }
     </style>
-
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
