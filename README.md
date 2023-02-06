@@ -1,2 +1,3 @@
-# video_player
+Видеоплеер с тестовым видео. Использована библиотека video-player-jslib.
+Ссылка на плеер на GitHub Pages
  
