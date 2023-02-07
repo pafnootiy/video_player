@@ -6,6 +6,7 @@
   
   <link rel="icon" type="image/png" href="static/images.png" sizes="16x16">
   <link rel="stylesheet" href="static/font-awesome.min.css">
+  <link href="static/styles" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -13,7 +14,7 @@
     <div class="js-video-container" ></div>
         <div class="left-buttons">
           <div class="player-button play">
-            <button class="js-play-button "style="background-color:black;"> 
+            <button class="js-play-button " style="background-color:black;"> 
               <i class="fa fa-play" aria-hidden="true"></i>
             </button>
           </div>
@@ -28,67 +29,19 @@
             </button>
           </div>
           <div class="player-button volume">
-            <button class="js-volume-button"style="background-color:black;" > 
+            <button class="js-volume-button" style="background-color:black;" > 
               <i class="fa fa-volume-off" aria-hidden="true"></i>
             </button>
           </div>
           <div class="space">  </div>
           <div class="player-button fullscreen">
-            <button class="js-fullscreen-button " style="background-color:black;"> 
+            <button class="js-fullscreen-button " style="background-color:rgb(0, 0, 0);"> 
               <i class="fa fa-arrows-alt" aria-hidden="true"></i>
             </button>
           </div>
         </div>  
-    </div>
-
   </div>
-
-  
-
-    <style>
-    .space{
-      display: flex;
-      flex-grow:99;
-
-    }
-    .left-buttons{
-      border-style: none;
-      background-color:black;
-      box-shadow:  10px 7px 5px 0px #E81EB5;
-      display: flex;
-  
-     
-    }
-
-    .fa{
-          font-size: 30px; 
-          cursor: pointer;
-          color: rgb(233, 0, 0);
-          background-color: #11ffee00;
-          display: flex; 
-          width: 40px;
-          height: 40px;
  
-      }
-
-    .js-video-container{
-      width: 100%;
-      height: 100%;
-      box-shadow:  10px 7px 5px 0px #E81EB5;
-    }
-
-    .player-button {
-      margin: 1px;
-    }
-    
-    #player{
-      width: 800px;
-      height: 600px;
-      display: flex;
-      flex-direction: column;
-    }
-    </style>
-
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
   <script src="static/player.js"></script>
@@ -98,4 +51,5 @@
   </script>
 
 </body>
+
 </html>
