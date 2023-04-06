@@ -1,29 +1,33 @@
   .space{
     display: flex;
     flex-grow: 1;
+    align-items: center;
+    background-color: black;
  
   }
 
   .left-buttons{
     background-color:black;
     display: flex;
+    align-items: center;
  
   }
 
-  .button{
-        font-size: 30px;
+  .vp-button{
+        font-size: 20px;
         color: #E81EB5;
-        background-color: #11ffee00;
+        background-color: transparent;
         cursor: pointer;
-        width: 60px;
-        height: 60px;
-        flex-grow: 0,5;
+        width: 35px;
+        height: 35px;
+        border: 0px;
+     
  
     }
 
   .video-player-container{
     width: 100%;
-    height: 100%;
+    flex-grow:1;
     
    }
 
