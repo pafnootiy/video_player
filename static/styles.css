@@ -1,10 +1,10 @@
-  .space{
+  /* .space{
     display: flex;
     flex-grow: 1;
     align-items: center;
     background-color: black;
  
-  }
+  } */
 
   .left-buttons{
     background-color:black;
@@ -42,19 +42,35 @@
 
   .timebar-style {
     font-family: 'Comic Neue';
-    color: #43bc0b;
+    color: #b1047d;
+    flex-grow: 1;
+    display: inline-flex;
   }
   
   .timebar-style .js-progress {
+    background-color: rgb(216, 27, 138);
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
     background-color: rgb(0, 0, 0);
-    display: inline-block;
+    flex-direction: row;
+ 
   }
   
   .timebar-style .js-progress-slider {
-    background-color: red;
+     
+    display: flex;
+    flex-grow: 0;
+    height: 5PX;
+    align-items: center;
+    background-color: rgb(255, 5, 5);
+    
   }
   
   .timebar-style .js-duration {
-    display: inline-block;
+ 
+    display: flex;
+    flex-grow: 0;
+    align-items: center;
   }
   
