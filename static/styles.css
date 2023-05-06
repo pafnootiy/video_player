@@ -33,11 +33,28 @@
 
 
   .player{
-    width: 811px;
-    height: 614px;
+    width: 800px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     box-shadow:  10px 7px 5px 0px #E81EB5;
   }
 
+  .timebar-style {
+    font-family: 'Comic Neue';
+    color: #43bc0b;
+  }
+  
+  .timebar-style .js-progress {
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+  }
+  
+  .timebar-style .js-progress-slider {
+    background-color: red;
+  }
+  
+  .timebar-style .js-duration {
+    display: inline-block;
+  }
   

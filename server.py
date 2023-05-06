@@ -1,6 +1,8 @@
 from livereload import Server
 
-server = Server()
-server.watch('index.html')
-server.serve(root='.')
 
+server = Server()
+
+server.watch('index.html')
+
+server.serve(root='.')
