@@ -12,6 +12,7 @@
 
   <div class="player" id="player">
     <div class="js-video-container video-player-container" ></div>
+    
         <div class="left-buttons">
             <button class="js-play-button vp-button"> 
               <i class="fa fa-play" aria-hidden="true"></i>
@@ -25,10 +26,20 @@
             <button class="js-volume-button vp-button" > 
               <i class="fa fa-volume-off" aria-hidden="true"></i>
             </button>
+            <div style="color: rgb(241, 218, 11);">
+              <span class="js-current-time"></span>
+              —
+              <span class="js-duration"></span>
+            </div>
+
           <div class="space"></div>
             <button class="js-fullscreen-button vp-button"> 
               <i class="fa fa-arrows-alt" aria-hidden="true"></i>
             </button>
+
+
+
+
         </div>  
   </div>
  
@@ -38,6 +49,9 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
   <script src="static/player.js"></script>
+  
+
+
 
   <script type="text/javascript">
     createPlayer({elementId: 'player'});
